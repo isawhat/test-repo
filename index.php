@@ -12,7 +12,7 @@
 // This allows the user to remove the install folder completely from the
 // public path for security, or to simply create a new little text file
 // for when we're developing on it, but want to easily install later on.
-/*
+
 if (!file_exists('./install/installed.txt'))
 {
 	// Auto $base_url copied from codeigniter/core/Config.php
@@ -23,7 +23,7 @@ if (!file_exists('./install/installed.txt'))
 	header("Location: {$base_url}install/index.php");
 	exit;
 }
-*/
+
 
 /*
  *---------------------------------------------------------------
